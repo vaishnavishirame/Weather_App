@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h2 align="center" class="head">Weather Forecast</h2>
+            <div class="ip">
+                <input type="text" id="userText">
+                <button onclick="getWeatherData();">
+                    <img src="https://www.freepnglogos.com/uploads/search-png/search-cartoon-icon-transparent-png-stickpng-19.png" alt="Search">
+                </button>
+            </div>
+            <div class="info" align="center">
+                <img src="sunny.jpg" alt="weather" class="weather_img">
+                <h1 id="temp" style="font-family: 'Times New Roman',;">28°C</h1>
+                <h2 id="city" style="font-family: 'Times New Roman',;">Pune</h2>
+            </div>
+            <div class="info2">
+                <div class="humidity">
+                    <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="humidity" class="humi">
+                    <h3>HUMIDITY</h3>
+                    <h4 id="humidity_info">50%</h4>
+                </div>
+            
+                <div class="wind">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1185/1185449.png"  alt="humidity" class="humi">
+                    <h3>WIND</h3>
+                    <h4 id="wind_info">4 km/h</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
