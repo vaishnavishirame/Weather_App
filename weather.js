@@ -31,7 +31,7 @@ async function getWeatherData()
             weatherImage.src="snow.jpg";
         }
         else if(data.weather[0].main=="Clouds"){
-            weatherImage.src="cloudy.png";
+            weatherImage.src="cloudy.jpeg";
         }else if(data.weather[0].main=="Drizzle"){
             weatherImage.src="drizzle.jpg";
         }else if(data.weather[0].main=="Mist"){
